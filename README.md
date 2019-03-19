@@ -3,6 +3,8 @@
 
 A dark/night theme for Facebook's inbox/messages and [messenger.com](messenger.com).
 
+Coloured chat bubbles can be turned on/off.
+
 ## Preview
 ### Coloured Chat Bubbles Enabled (with Darker Default Blue)
 ![](https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/images/screenshots/main.png)
