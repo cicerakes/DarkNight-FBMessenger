@@ -1,7 +1,7 @@
 # DarkNight-FBMessenger
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-238b8b.svg)](https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/DarkNightFBM.user.css)
 
-A dark/night theme for Facebook's inbox/messages and [messenger.com](messenger.com).
+A dark/night theme for Facebook's inbox/messages and [messenger.com](https://www.messenger.com/).
 
 Coloured chat bubbles can be turned on/off.
 
