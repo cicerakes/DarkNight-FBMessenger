@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night Facebook Messenger
 @namespace		cicerakes
-@version		1.0.0
+@version		1.0.1
 @description	A dark/night theme for Facebook's inbox/messages and messenger.com.
 @author			cicerakes
 @license		CC-BY-SA-4.0
@@ -9,18 +9,18 @@
 @supportURL		https://github.com/cicerakes/DarkNight-FBMessenger/issues
 @updateURL		https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/DarkNightFBM.user.css
 @preprocessor	uso
-@var select		cCB		"Coloured Chat Bubbles" {
-	"cCB_yesDark:Enabled - Darker Default Blue": "._nd_ ._hh7._6ybn{background-color: #006cd1;}",
-	"cCB_yes:Enabled": "#222",
-	"cCB_no:Disabled": "._3058._ui9._hh7._s1-._52mr{background-color:#363636!important;color:#cecece}._nd_ ._hh7:active,._nd_._-5k ._hh7{background-color:#464646!important}"
+@var select		ccb		"Coloured Chat Bubbles" {
+	"Enabled - Darker Default Blue": "._nd_ ._hh7._6ybn{background-color: #006cd1;}",
+	"Enabled": "#222",
+	"Disabled": "._3058._ui9._hh7._s1-._52mr{background-color:#363636!important;color:#cecece}._nd_ ._hh7:active,._nd_._-5k ._hh7{background-color:#464646!important}"
 }
 @var select		inbox	"Enabled on Facebook Inbox/messages (not just messenger.com)" {
-	"inbox:Yes": ", url-prefix(\"https://www.facebook.com/messages\"), url-prefix(\"https://web.facebook.com/messages\")",
-	"inbox_no:No": ""
+	"Yes": ", url-prefix(\"https://www.facebook.com/messages\"), url-prefix(\"https://web.facebook.com/messages\")",
+	"No": ""
 }
-@var select		sGE		"Stickers, Gifs, and Emojis Dark Styling" {
-	"sGE_dark:Enabled": "._53ij{background-color:#1e1e1e}._4owc ._53ij{box-shadow:0 2px 4px 1px rgba(0,0,0,.5)}._hw2 ._53ij{background-color:rgba(0,0,0,.88)}._eb3:before{background-color:#303030}._5r8l .uiScrollableArea.contentAfter:after{background:linear-gradient(rgba(30,30,30,0.05),#1e1e1e)}._5r8h:hover{background-color:rgba(246,247,249,0.1)}._5r8a._5r8b{background:rgba(233,235,238,0.1)}._5r8e{border-bottom:1px solid rgba(212,212,212,0.1)}._37wv,._5r86{border-left:1px solid rgba(217,217,217,0.1)}._37wu{border-right:1px solid rgba(217,217,217,0.1)}._1uwz{background:rgba(233,235,238,0.1)}._1r_9 ._53ik ._53io{-webkit-filter:invert(.882);filter:invert(.882)}._59s7{background-color:#1e1e1e}",
-	"sGE_white:Disabled": ""
+@var select		sge		"Stickers, Gifs, and Emojis Dark Styling" {
+	"Enabled": "._53ij{background-color:#1e1e1e}._4owc ._53ij{box-shadow:0 2px 4px 1px rgba(0,0,0,.5)}._hw2 ._53ij{background-color:rgba(0,0,0,.88)}._eb3:before{background-color:#303030}._5r8l .uiScrollableArea.contentAfter:after{background:linear-gradient(rgba(30,30,30,0.05),#1e1e1e)}._5r8h:hover{background-color:rgba(246,247,249,0.1)}._5r8a._5r8b{background:rgba(233,235,238,0.1)}._5r8e{border-bottom:1px solid rgba(212,212,212,0.1)}._37wv,._5r86{border-left:1px solid rgba(217,217,217,0.1)}._37wu{border-right:1px solid rgba(217,217,217,0.1)}._1uwz{background:rgba(233,235,238,0.1)}._1r_9 ._53ik ._53io{-webkit-filter:invert(.882);filter:invert(.882)}._59s7{background-color:#1e1e1e}",
+	"Disabled": ""
 }
 ==/UserStyle== */
 
