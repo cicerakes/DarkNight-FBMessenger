@@ -3,7 +3,7 @@ name: Bug report
 about: Report any issues
 title: ''
 labels: bug
-assignees: ''
+assignees: cicerakes
 
 ---
 
