@@ -304,6 +304,10 @@
 		background-color: transparent !important;
 	}
 
+	._2poz._ui9._576q svg > rect[fill="white"] {
+		fill: #1e1e1e;
+	}
+
 	/*[[ccb]]*/
 
 	/* > Reply */
