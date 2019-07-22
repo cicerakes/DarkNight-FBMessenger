@@ -64,6 +64,14 @@
 		color: #cecece;
 	}
 
+	._6ymu, ._6-xp {
+		background-color: rgba(255, 255, 255, .04);
+	}
+	
+	._6ymu path, ._6-xp path {
+		fill: #cecece;
+	}
+
 	._6zkf {
 		color: #cecece;
 	}
