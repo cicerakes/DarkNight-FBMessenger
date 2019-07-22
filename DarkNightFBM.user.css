@@ -10,9 +10,9 @@
 @updateURL		https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/DarkNightFBM.user.css
 @preprocessor	uso
 @var select		ccb		"Coloured Chat Bubbles" {
-	"Enabled - Darker Default Blue": "._nd_ ._hh7._6ybn{background-color: #006cd1;}",
+	"Enabled - Darker Default Blue": "._nd_ ._hh7._6ybn{background-color:#006cd1!important}._hh7._6ybn._2f5r{background-color:transparent!important}",
 	"Enabled": "#222",
-	"Disabled": "._3058._ui9._hh7._s1-._52mr{background-color:#363636!important;color:#cecece}._nd_ ._hh7:active,._nd_._-5k ._hh7{background-color:#464646!important}"
+	"Disabled": "._nd_ ._hh7._6ybn{background-color:#363636!important;color:#cecece}._hh7._6ybn._2f5r{background-color:transparent!important}"
 }
 @var select		inbox	"Enabled on Facebook Inbox/messages (not just messenger.com)" {
 	"Yes": ", url-prefix(\"https://www.facebook.com/messages\"), url-prefix(\"https://web.facebook.com/messages\")",
@@ -210,10 +210,6 @@
 
 	._hh7 a {
 		color: #cecece;
-	}
-
-	._hh7:active, ._-5k ._hh7 {
-		background-color: #464646;
 	}
 
 	._673w {
