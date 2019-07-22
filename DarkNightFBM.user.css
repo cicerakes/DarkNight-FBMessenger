@@ -153,6 +153,10 @@
 		fill: #cecece;
 	}
 
+	._7ht_ {
+		color: rgba(255, 255, 255, .4);
+	}
+
 	._3eus {
 		color: #9e9e9e;
 	}
@@ -423,6 +427,38 @@
 
 	._5l38 {
 		border-top-color: #2e2e2e;
+	}
+
+	/* Report conversation */
+	
+	._1py_._1rb6 {
+		background: #1e1e1e !important;
+	}
+	
+	._3lxv {
+		background: #1e1e1e !important;
+		border-bottom-color: #3e3e3e !important;
+	}
+	
+	._3lxw {
+		color: #cecece;
+	}
+	
+	._59ry, ._4iyh._2pia._2pi4 {
+		border-color: #3e3e3e !important;
+	}
+	
+	._6s-6 {
+		background-color: #262626;
+		border-color: #3e3e3e;
+	}
+	
+	._6s-6 span {
+		color: #fff !important;
+	}
+	
+	._6s-6:not(._7nq7) {
+		outline-color: transparent;
 	}
 
 	/* Option Menus */
