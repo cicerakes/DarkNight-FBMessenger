@@ -142,6 +142,10 @@
 		border-bottom-color: #1e1e1e;
 	}
 
+	._7q1j div[style="border: 2px solid white; height: 33px; width: 33px;"] {
+		border-color: transparent !important;
+	}
+
 	/* Right */
 
 	._3eur._6ybk, ._3eur._6ybk a {
