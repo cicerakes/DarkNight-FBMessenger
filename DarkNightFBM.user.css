@@ -149,6 +149,10 @@
 		color: rgba(255, 255, 255, .34);
 	}
 
+	#magnifying-glass path, #pencil-underline path, #bell path, #message-cross path, #minus-circle path, #caution-triangle path {
+		fill: #cecece;
+	}
+
 	._3eus {
 		color: #9e9e9e;
 	}
