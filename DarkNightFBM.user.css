@@ -56,10 +56,6 @@
 
 	/* Left */
 
-	._1ht1 {
-		background-color: #1e1e1e;
-	}
-
 	._1ht6 {
 		color: #cecece;
 	}
@@ -98,12 +94,8 @@
 		background-color: #2e2e2e;
 	}
 
-	._1ht1:hover {
-		background-color: #2e2e2e;
-	}
-
-	._1ht1._1ht2 {
-		background-color: #2e2e2e;
+	._1ht1._1ht2 ._6zkc {
+		background-color: rgba(255, 255, 255, .05);
 	}
 
 	._1u5d {
