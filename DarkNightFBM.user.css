@@ -56,6 +56,10 @@
 
 	/* Left */
 
+	._6-xo {
+		color: #cecece;
+	}
+
 	._6zkf {
 		color: #cecece;
 	}
@@ -124,6 +128,14 @@
 	}
 
 	/* Right */
+
+	._3eur._6ybk, ._3eur._6ybk a {
+		color: #cecece;
+	}
+
+	._1lj0._6ybm {
+		color: rgba(255, 255, 255, .34);
+	}
 
 	._3eus {
 		color: #9e9e9e;
