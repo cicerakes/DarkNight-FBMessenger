@@ -14,3 +14,7 @@ Userstyle version [here](https://userstyles.org/styles/134433/dark-night-faceboo
 
 ### Coloured Chat Bubbles Disabled 
 ![](https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/images/screenshots/main_no-coloured.png)
+
+# Installing with Stylus
+
+To install with Stylus, just click the button [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-238b8b.svg)](https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/DarkNightFBM.user.css)
