@@ -11,7 +11,7 @@
 @preprocessor	uso
 @var select		ccb		"Coloured Chat Bubbles" {
 	"Enabled - Darker Default Blue": "._nd_ ._hh7._6ybn{background-color:#006cd1!important}._hh7._6ybn._2f5r{background-color:transparent!important}",
-	"Enabled": "#222",
+	"Enabled": "",
 	"Disabled": "._nd_ ._hh7._6ybn{background-color:#363636!important;color:#cecece}._hh7._6ybn._2f5r{background-color:transparent!important}"
 }
 @var select		inbox	"Enabled on Facebook Inbox/messages (not just messenger.com)" {
