@@ -539,7 +539,13 @@
 	/* code snippets */
 	
 	._wu0 {
-	    background-color: #404040;
+	    	background-color: #404040;
+	}
+	
+	/* message that replaying reffers to */
+	
+	._67tw {
+		color: rgba(255, 255, 255, 0.5);
 	}
 	
 	/*[[sge]]*/
