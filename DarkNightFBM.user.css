@@ -309,6 +309,14 @@
 	}
 
 	/* > Message options */
+
+	._7-_v {
+		background-color: rgba(255, 255, 255, .04);
+	}
+
+	._7-_v path {
+		fill: white;
+	}
 	
 	._2rvp._7i2l g, ._3-wv._7i2n path, ._5zvq._7i2o path {
 		fill: rgba(255, 255, 255, 0.34);
