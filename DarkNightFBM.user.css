@@ -15,7 +15,7 @@
 	"Disabled": "._nd_ ._hh7._6ybn{background-color:#363636!important;color:#cecece}._hh7._6ybn._2f5r{background-color:transparent!important}"
 }
 @var select		inbox	"Enabled on Facebook Inbox/messages (not just messenger.com)" {
-	"Yes": ", url-prefix(\"https://www.facebook.com/messages\"), url-prefix(\"https://web.facebook.com/messages\")",
+	"Yes": ", url-prefix('https://www.facebook.com/messages'), url-prefix('https://web.facebook.com/messages')",
 	"No": ""
 }
 @var select		sge		"Stickers, Gifs, and Emojis Dark Styling" {
