@@ -150,7 +150,7 @@
 		border-color: transparent !important;
 	}
 
-	._7q1j ._7q0v, ._7q1j ._7q1i {
+	._7q0v[style="border: 2px solid rgb(242, 242, 242); height: 33px; width: 33px;"], ._7q1i[style="border: 2px solid rgb(242, 242, 242); height: 33px; width: 33px;"] {
 		border-color: #292929 !important;
 	}
 
