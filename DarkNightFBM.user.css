@@ -154,6 +154,10 @@
 		border-color: #292929 !important;
 	}
 
+	._30yy._6-xf._6-xg svg {
+		filter: invert(.8);
+	}
+
 	/* Right */
 
 	._3eur._6ybk, ._3eur._6ybk a {
