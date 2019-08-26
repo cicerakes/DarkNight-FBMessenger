@@ -338,6 +338,10 @@
 		border-color: rgba(255, 255, 255, .1);
 	}
 
+	._uwc ._uwa {
+		filter: invert(1);
+	}
+
 	/*[[ccb]]*/
 
 	/* > Reply */
