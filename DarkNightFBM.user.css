@@ -216,6 +216,30 @@
 		color: #cecece;
 	}
 
+	._80co {
+		background-color: rgba(30, 30, 30, .5)
+	}
+
+	._80cm {
+		background-color: #1e1e1e;
+	}
+
+	._80cm svg {
+		filter: invert(.8);
+	}
+
+	._7q1q {
+		color: #cecece;
+	}
+
+	._7q1p._7q1l, ._7q1m, ._7q1n {
+		border-color: #1e1e1e !important;
+	}
+
+	._7q1p {
+		background-color: rgba(255, 255, 255, .05);
+	}
+
 	/* Middle */
 
 	._1t2u {
