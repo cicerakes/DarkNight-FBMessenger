@@ -433,9 +433,13 @@
 
 	/* > Reactions */
 
-	._aou, ._4kf5 {
+	._aou {
 		background-color: #1e1e1e;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+	}
+
+	._4kf5 {
+		background-color: #1e1e1e;
 	}
 
 	._koh {
