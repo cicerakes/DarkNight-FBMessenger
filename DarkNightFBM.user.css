@@ -366,6 +366,10 @@
 		color: rgba(255, 255, 255, .5);
 	}
 
+	._3egs {
+		background: #1e1e1e;
+	}
+
 	.fbNubFlyoutHeader, .fbNubFlyoutBody, .fbNubFlyoutFooter, .fbNubFlyoutAttachments, ._4_j4 .chatAttachmentShelf {
 		background: #1e1e1e;
 		border-color: #5e5e5e;
