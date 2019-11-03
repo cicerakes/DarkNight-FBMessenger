@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night Facebook Messenger
 @namespace		cicerakes
-@version		1.0.5
+@version		1.0.6
 @description	A dark/night theme for Facebook's inbox/messages and messenger.com.
 @author			cicerakes
 @license		CC-BY-SA-4.0
@@ -9,18 +9,18 @@
 @supportURL		https://github.com/cicerakes/DarkNight-FBMessenger/issues
 @updateURL		https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/DarkNightFBM.user.css
 @preprocessor	uso
-@var select		ccb		"Coloured Chat Bubbles" {
+@var select		ccb		"Colored Chat Bubbles" {
 	"Enabled - Darker Default Blue": "._nd_ ._hh7._6ybn[style='background-attachment: fixed;background-color: rgb(0, 132, 255);'],._nd_ ._hh7._6ybn[style='background-attachment: fixed; background-color: rgb(0, 132, 255);'],._nd_ ._hh7._6ybn[style='background-attachment: fixed; background-color: rgb(0, 153, 255);']{background-color:#006cd1!important}._hh7._6ybn._2f5r{background-color:transparent!important}",
 	"Enabled": "",
 	"Disabled": "._nd_ ._hh7._6ybn{background-color:#363636!important;color:#cecece}._hh7._6ybn._2f5r{background-color:transparent!important}"
 }
-@var select		inbox	"Enabled on Facebook Inbox/messages (not just messenger.com)" {
+@var select		inbox	"Enable on Facebook Messages/Inbox" {
 	"Yes": ", url-prefix('https://www.facebook.com/messages'), url-prefix('https://web.facebook.com/messages')",
 	"No": ""
 }
 @var select		sge		"Stickers, Gifs, and Emojis Dark Styling" {
-	"Enabled": "._53ij{background-color:#1e1e1e}._4owc ._53ij{box-shadow:0 2px 4px 1px rgba(0,0,0,.5)}._hw2 ._53ij{background-color:rgba(0,0,0,.88)}._eb3:before{background-color:#303030}._5r8l .uiScrollableArea.contentAfter:after{background:linear-gradient(rgba(30,30,30,0.05),#1e1e1e)}._5r8h:hover{background-color:rgba(246,247,249,0.1)}._5r8a._5r8b{background:rgba(233,235,238,0.1)}._5r8e{border-bottom:1px solid rgba(212,212,212,0.1)}._37wv,._5r86{border-left:1px solid rgba(217,217,217,0.1)}._37wu{border-right:1px solid rgba(217,217,217,0.1)}._1uwz{background:rgba(233,235,238,0.1)}._1r_9 ._53ik ._53io{-webkit-filter:invert(.882);filter:invert(.882)}._59s7{background-color:#1e1e1e}",
-	"Disabled": ""
+	"Enabled": "._53ij,._1r_9 ._53ij{background-color:#1e1e1e;border:1px solid #464646;}._4owc ._53ij{box-shadow:0 2px 4px 1px rgba(0,0,0,.5)}._hw2 ._53ij{background-color:rgba(0,0,0,.88);border: 0}._eb3::before{background-color:#303030}._5r8l .uiScrollableArea.contentAfter::after,._3mts .uiScrollableArea.contentAfter::after{background:linear-gradient(rgba(30,30,30,0.05),#1e1e1e)}._5r8h:hover{background-color:rgba(246,247,249,0.1)}._5r8a._5r8b{background:rgba(233,235,238,0.1)}._5r8e{border-bottom:1px solid rgba(212,212,212,0.1)}._37wv,._5r86{border-left:1px solid rgba(217,217,217,0.1)}._37wu{border-right:1px solid rgba(217,217,217,0.1)}._1uwz{background:rgba(233,235,238,0.1)}._1r_9 ._53ik ._53io{-webkit-filter:invert(.882);filter:invert(.882)}._59s7,._49no,._2z8r,._4lh2{background-color:#1e1e1e}._1wc4._5-1q{border-top:0}._1wc4{border-color:#3e3e3e}._3mtr ._4qcs{background:none}._50f9,._2z8r{color:#cecece}._56jc,._1pka ._49no, ._1pka ._2abm, ._1pka ._5exl,._4uvi{border-color:#3e3e3e}#facebook._51l0 ._1c9h ._5fbv,._51l0 ._1-sv,._51l0 ._1-sy ._1-sz::before, ._51l0 ._ipw._1c9h ._1-sz::before{color:rgba(255,255,255,.4)}._4lh2{border-color:rgba(255,255,255,.2)}._3rh0{background:rgba(255,255,255,.05)}._4lh7{color:rgba(255,255,255,.5)}",
+	"Disabled": "._4lha ._4lhb{color:#1c1e21}"
 }
 ==/UserStyle== */
 
@@ -67,7 +67,7 @@
 	._6ymu, ._6-xp {
 		background-color: rgba(255, 255, 255, .04);
 	}
-	
+
 	._6ymu path, ._6-xp path {
 		fill: #cecece;
 	}
@@ -80,13 +80,18 @@
 		color: #999;
 	}
 
-	._8102._4-0i, ._8102 g {
+	._8102._4-0i, ._8102 g, ._6zv9 g #Fill-1 {
 		fill: rgba(255, 255, 255, 0.34);
 	}
 
+	.sp_sbxFxdCZjuj {
+		-webkit-filter: invert(1);
+		filter: invert(1);
+	}
+
 	._53il ._558b+._53io, ._53ik ._558b+._53io {
-		-webkit-filter: brightness(0.12);
-		filter: brightness(0.12);
+		-webkit-filter: invert(.882);
+		filter: invert(.882);
 	}
 
 	._1ht6 {
@@ -184,7 +189,7 @@
 		fill: #cecece;
 	}
 
-	._7ht_ {
+	._7ht_, ._7lgy {
 		color: rgba(255, 255, 255, .4);
 	}
 
@@ -224,6 +229,7 @@
 		border-left-color: #1e1e1e;
 		border-right-color: #1e1e1e;
 	}
+
 	._3m31:nth-of-type(3n+3) {
 		border-left-color: #1e1e1e;
 	}
@@ -248,6 +254,10 @@
 		filter: invert(.8);
 	}
 
+	._7jxv {
+		background-color: #1e1e1e;
+	}
+
 	._7q1q {
 		color: #cecece;
 	}
@@ -262,6 +272,10 @@
 
 	._87b_ {
 		color: rgba(255, 255, 255, .4);
+	}
+
+	._4dfu {
+		background-image: linear-gradient(to right, #1e1e1e, rgba(255, 255, 255, .05), #1e1e1e);
 	}
 
 	/* Middle */
@@ -379,19 +393,51 @@
 		background-color: #232323;
 	}
 
+	._74ku {
+		color: rgba(255, 255, 255, .5);
+	}
+
 	._llj {
 		border-color: rgba(255, 255, 255, .05);
+	}
+
+	._4rv3 {
+		border-color: rgba(255, 255, 255, .1);
+	}
+
+	._jf4 ._jf3 {
+		background-color: rgba(255, 255, 255, .05);
+		color: rgba(255, 255, 255, .4);
 	}
 
 	._2kt ._3xsd {
 		color: #cecece;
 	}
 
-	._74ku {
-		color: rgba(255, 255, 255, .5);
+	/*[[ccb]]*/
+
+	/* > Chat bot options */
+
+	._3cn0, div ._38a0 {
+		color: rgba(255, 255, 255, 1);
 	}
 
-	/*[[ccb]]*/
+	._3cnl, ._3cnn a, ._3cnj {
+		color: rgba(255, 255, 255, .4);
+	}
+
+	._3cnp, ._389r {
+		border-color: rgba(255, 255, 255, .1);
+	}
+
+	._10sf {
+		background: #1e1e1e;
+		border-color: #3e3e3e;
+	}
+
+	._3u69 {
+		background-color: #1e1e1e;
+	}
 
 	/* > Reply */
 
@@ -408,7 +454,7 @@
 	._7-_v path {
 		fill: white;
 	}
-	
+
 	._2rvp._7i2l g, ._3-wv._7i2n path, ._5zvq._7i2o path {
 		fill: rgba(255, 255, 255, 0.34);
 	}
@@ -444,7 +490,15 @@
 		color: #cecece;
 	}
 
+	.__6j._43kk {
+		border-color: #1e1e1e;
+	}
+
 	/* > Search */
+
+	._5iwm ._58al {
+		background-color: rgba(255, 255, 255, .04);
+	}
 
 	._33p7 {
 		background-color: rgba(30,30,30,.95);
@@ -543,35 +597,41 @@
 	}
 
 	/* Report conversation */
-	
+
 	._1py_._1rb6 {
 		background: #1e1e1e !important;
 	}
-	
+
 	._3lxv {
 		background: #1e1e1e !important;
 		border-bottom-color: #3e3e3e !important;
 	}
-	
+
 	._3lxw {
 		color: #cecece;
 	}
-	
+
 	._59ry, ._4iyh._2pia._2pi4 {
 		border-color: #3e3e3e !important;
 	}
-	
+
 	._6s-6 {
 		background-color: #262626;
 		border-color: #3e3e3e;
 	}
-	
+
 	._6s-6 span {
 		color: #fff !important;
 	}
-	
+
 	._6s-6:not(._7nq7) {
 		outline-color: transparent;
+	}
+
+	/* Delete message */
+
+	._7492 {
+		color:rgba(255, 255, 255, .5);
 	}
 
 	/* Option Menus */
@@ -603,7 +663,7 @@
 		background: none;
 	}
 
-	._4ng2 {
+	._4ng2, ._6ct8._6y58 {
 		color: #cecece;
 	}
 
@@ -635,7 +695,7 @@
 		border-color: #2e2e2e;
 	}
 
-	/*Plans*/
+	/* Plans */
 
 	._3nta {
 		background-color: #1e1e1e;
