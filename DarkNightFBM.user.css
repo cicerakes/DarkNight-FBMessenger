@@ -27,7 +27,6 @@
 @-moz-document domain("messenger.com")/*[[inbox]]*/ {
 	body {
 		color: #cecece;
-		background: #1e1e1e;
 	}
 
 	a {
