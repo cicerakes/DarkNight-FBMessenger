@@ -20,7 +20,7 @@
 }
 @var select		sge		"Stickers, Gifs, and Emojis Dark Styling" {
 	"Enabled": "._53ij,._1r_9 ._53ij{background-color:#1e1e1e;border:1px solid #464646;}._4owc ._53ij{box-shadow:0 2px 4px 1px rgba(0,0,0,.5)}._hw2 ._53ij{background-color:rgba(0,0,0,.88);border: 0}._eb3::before{background-color:#303030}._5r8l .uiScrollableArea.contentAfter::after,._3mts .uiScrollableArea.contentAfter::after{background:linear-gradient(rgba(30,30,30,0.05),#1e1e1e)}._5r8h:hover{background-color:rgba(246,247,249,0.1)}._5r8a._5r8b{background:rgba(233,235,238,0.1)}._5r8e{border-bottom:1px solid rgba(212,212,212,0.1)}._37wv,._5r86{border-left:1px solid rgba(217,217,217,0.1)}._37wu{border-right:1px solid rgba(217,217,217,0.1)}._1uwz{background:rgba(233,235,238,0.1)}._1r_9 ._53ik ._53io{-webkit-filter:invert(.882);filter:invert(.882)}._59s7,._49no,._2z8r,._4lh2{background-color:#1e1e1e}._1wc4._5-1q{border-top:0}._1wc4{border-color:#3e3e3e}._3mtr ._4qcs{background:none}._50f9,._2z8r{color:#cecece}._56jc,._1pka ._49no, ._1pka ._2abm, ._1pka ._5exl,._4uvi{border-color:#3e3e3e}#facebook._51l0 ._1c9h ._5fbv,._51l0 ._1-sv,._51l0 ._1-sy ._1-sz::before, ._51l0 ._ipw._1c9h ._1-sz::before{color:rgba(255,255,255,.4)}._4lh2{border-color:rgba(255,255,255,.2)}._3rh0{background:rgba(255,255,255,.05)}._4lh7{color:rgba(255,255,255,.5)}",
-"Disabled": "._4lha ._4lhb{color:#1c1e21}"
+	"Disabled": "._4lha ._4lhb{color:#1c1e21}"
 }
 ==/UserStyle== */
 
@@ -84,10 +84,10 @@
 		fill: rgba(255, 255, 255, 0.34);
 	}
 
-    .sp_sbxFxdCZjuj {
+	.sp_sbxFxdCZjuj {
 		-webkit-filter: invert(1);
 		filter: invert(1);
-    }
+	}
 
 	._53il ._558b+._53io, ._53ik ._558b+._53io {
 		-webkit-filter: invert(.882);
@@ -273,7 +273,7 @@
 	._87b_ {
 		color: rgba(255, 255, 255, .4);
 	}
-	
+
 	._4dfu {
 		background-image: linear-gradient(to right, #1e1e1e, rgba(255, 255, 255, .05), #1e1e1e);
 	}
@@ -400,7 +400,7 @@
 	._4rv3 {
 		border-color: rgba(255, 255, 255, .1);
 	}
-	
+
 	._jf4 ._jf3 {
 		background-color: rgba(255, 255, 255, .05);
 		color: rgba(255, 255, 255, .4);
@@ -589,33 +589,33 @@
 	}
 
 	/* Report conversation */
-	
+
 	._1py_._1rb6 {
 		background: #1e1e1e !important;
 	}
-	
+
 	._3lxv {
 		background: #1e1e1e !important;
 		border-bottom-color: #3e3e3e !important;
 	}
-	
+
 	._3lxw {
 		color: #cecece;
 	}
-	
+
 	._59ry, ._4iyh._2pia._2pi4 {
 		border-color: #3e3e3e !important;
 	}
-	
+
 	._6s-6 {
 		background-color: #262626;
 		border-color: #3e3e3e;
 	}
-	
+
 	._6s-6 span {
 		color: #fff !important;
 	}
-	
+
 	._6s-6:not(._7nq7) {
 		outline-color: transparent;
 	}
