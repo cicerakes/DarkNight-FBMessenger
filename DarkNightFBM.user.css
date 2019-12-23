@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night Facebook Messenger
 @namespace		cicerakes
-@version		1.0.6
+@version		1.0.7
 @description	A dark/night theme for Facebook's inbox/messages and messenger.com.
 @author			cicerakes
 @license		CC-BY-SA-4.0
@@ -499,6 +499,10 @@
 	._5iwm ._58al {
 		background-color: rgba(255, 255, 255, .04);
 	}
+
+    ._8slc {
+        color: #cecece;
+    }
 
 	._33p7 {
 		background-color: rgba(30,30,30,.95);
