@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night Facebook Messenger
 @namespace		cicerakes
-@version		1.0.7
+@version		1.0.8
 @description	A dark/night theme for Facebook's inbox/messages and messenger.com.
 @author			cicerakes
 @license		CC-BY-SA-4.0
@@ -504,9 +504,9 @@
 		background-color: rgba(255, 255, 255, .04);
 	}
 
-    ._8slc {
-        color: #cecece;
-    }
+	._8slc {
+		color: #cecece;
+	}
 
 	._33p7 {
 		background-color: rgba(30,30,30,.95);
@@ -677,6 +677,40 @@
 
 	._6cs7 {
 		color: rgba(206, 206, 206, 0.6);
+	}
+
+	/* Report a Problem */
+
+	._4t2a, div._4-i2, div._5a8u {
+		background-color: #1e1e1e;
+	}
+
+	._4-i0 {
+		background-color: #242526;
+		border-color: #3e3e3e;
+	}
+
+	._4-i0 ._52c9, ._uvt {
+		color: #cecece;
+	}
+
+	#bug_report_textarea, .mvs select {
+		background-color: #1e1e1e !important;
+		border-color: #4e4e4e;
+		color: #cecece;
+	}
+	._517h, ._59pe:focus, ._59pe:hover {
+		background-color: #242526;
+		border-color: #3e3e3e;
+		color: #bebebe;
+	}
+
+	._517h:hover {
+		background-color:  #2e2e2e;
+	}
+
+	._5lnf {
+		border-color: #404040;
 	}
 
 	/* Fix for Inbox */
