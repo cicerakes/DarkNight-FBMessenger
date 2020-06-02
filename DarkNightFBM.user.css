@@ -426,6 +426,10 @@
 		color:rgba(255, 255, 255, .5);
 	}
 
+	._uwe ._uwa {
+		filter: invert(1);
+	}
+
 	/*[[ccb]]*/
 
 	/* > Chat bot options */
