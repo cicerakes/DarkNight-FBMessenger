@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night Facebook Messenger
 @namespace		cicerakes
-@version		1.0.11
+@version		2.0.0
 @description	A dark/night theme for Facebook's inbox/messages and messenger.com.
 @author			cicerakes
 @license		CC-BY-SA-4.0
@@ -10,762 +10,87 @@
 @updateURL		https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/DarkNightFBM.user.css
 @preprocessor	uso
 @var select		ccb		"Colored Chat Bubbles" {
-	"Enabled - Darker Default Blue": "._nd_ ._hh7._6ybn[style='background-attachment: fixed;background-color: rgb(0, 132, 255);'],._nd_ ._hh7._6ybn[style='background-attachment: fixed; background-color: rgb(0, 132, 255);'],._nd_ ._hh7._6ybn[style='background-attachment: fixed; background-color: rgb(0, 153, 255);']{background-color:#006cd1!important}._hh7._6ybn._2f5r{background-color:transparent!important}",
+	"Enabled - Darker Default Blue": ".l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.qlfml3jp.inkptoze.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf[style='background-color: rgb(0, 153, 255);'],.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.qlfml3jp.ihh4hy1g.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf[style='background-color: rgb(0, 153, 255);'],.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.kdgqqoy6.inkptoze.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf[style='background-color: rgb(0, 153, 255);']{background-color:#006cd1!important}",
 	"Enabled": "",
-	"Disabled": "._nd_ ._hh7._6ybn{background-color:#363636!important;color:#cecece}._hh7._6ybn._2f5r{background-color:transparent!important}"
+	"Disabled": ".l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.qlfml3jp.inkptoze.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf,.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.qlfml3jp.ihh4hy1g.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf,.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.kdgqqoy6.inkptoze.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf{background-color:#363636!important}"
 }
 @var select		inbox	"Enable on Facebook Messages/Inbox" {
 	"Yes": ", url-prefix('https://www.facebook.com/messages'), url-prefix('https://web.facebook.com/messages')",
 	"No": ""
 }
-@var select		sge		"Stickers, Gifs, and Emojis Dark Styling" {
-	"Enabled": "._53ij,._1r_9 ._53ij{background-color:#1e1e1e;border:1px solid #464646;}._4owc ._53ij{box-shadow:0 2px 4px 1px rgba(0,0,0,.5)}._hw2 ._53ij{background-color:rgba(0,0,0,.88);border: 0}._eb3::before{background-color:#303030}._5r8l .uiScrollableArea.contentAfter::after,._3mts .uiScrollableArea.contentAfter::after{background:linear-gradient(rgba(30,30,30,0.05),#1e1e1e)}._5r8h:hover{background-color:rgba(246,247,249,0.1)}._5r8a._5r8b{background:rgba(233,235,238,0.1)}._5r8e{border-bottom:1px solid rgba(212,212,212,0.1)}._37wv,._5r86{border-left:1px solid rgba(217,217,217,0.1)}._37wu{border-right:1px solid rgba(217,217,217,0.1)}._1uwz{background:rgba(233,235,238,0.1)}._1r_9 ._53ik ._53io{-webkit-filter:invert(.882);filter:invert(.882)}._59s7,._49no,._2z8r,._4lh2{background-color:#1e1e1e}._1wc4._5-1q{border-top:0}._1wc4{border-color:#3e3e3e}._3mtr ._4qcs{background:none}._50f9,._2z8r{color:#cecece}._56jc,._1pka ._49no, ._1pka ._2abm, ._1pka ._5exl,._4uvi{border-color:#3e3e3e}#facebook._51l0 ._1c9h ._5fbv,._51l0 ._1-sv,._51l0 ._1-sy ._1-sz::before, ._51l0 ._ipw._1c9h ._1-sz::before{color:rgba(255,255,255,.4)}._4lh2{border-color:rgba(255,255,255,.2)}._3rh0{background:rgba(255,255,255,.05)}._4lh7{color:rgba(255,255,255,.5)}",
-	"Disabled": "._4lha ._4lhb{color:#1c1e21}"
-}
 ==/UserStyle== */
 
 @-moz-document domain("messenger.com")/*[[inbox]]*/ {
+	:root, .__fb-light-mode {
+		--card-background: #1e1e1e;
+		--card-background-flat: #292929;
+		--disabled-button-background: #373737;
+		--divider: #4d4d4d;
+		--media-inner-border: rgba(255, 255, 255, 0.1);
+		--messenger-card-background: #1e1e1e;
+		--overlay-alpha-80: rgba(41, 41, 41, 0.8);
+		--popover-background: #1e1e1e;
+		--primary-icon: #cecece;
+		--primary-text: #cecece;
+		--scroll-thumb: #5d5d5d;
+		--secondary-button-background: #353535;
+		--secondary-icon: #999;
+		--secondary-text: #999;
+		--shadow-1: rgba(0, 0, 0, 0.3);
+		--shadow-2: rgba(0, 0, 0, 0.4);
+		--shadow-5: rgba(0, 0, 0, 0.7);
+		--shadow-8: rgba(0, 0, 0, 1);
+		--shadow-inset: rgba(000, 000, 000, 0.5);
+		--surface-background: #1e1e1e;
+		--wash: #373737;
+		--web-wash: #1e1e1e;
+	}
+
 	body {
 		color: #cecece;
 	}
 
-	a {
-		color: #0084ff;
-	}
-
-	h1, h2, h3, h4, h5, h6 {
-		color: #cecece;
-	}
-
-	._4sp8 {
-		background-color: #1e1e1e;
-	}
-
-	._36ic, ._5742 {
-		background-color: #1e1e1e;
-		border-bottom-color: #3e3e3e;
-	}
-
-	._17w2 {
-		color: #cecece;
-	}
-
-	._2v6o {
-		color: #9e9e9e;
-	}
-
-	._6ynl {
-		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3)
-	}
-
-	/* Left */
-
-	._6-xo {
-		color: #cecece;
-	}
-
-	._6ymu, ._6-xp, .hzft2hz5  {
-		background-color: rgba(255, 255, 255, .04);
-	}
-
-	._6ymu path, ._6-xp path, .hzft2hz5 path {
+	/* Delivered icon on left*/
+	.rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.pfnyh3mw.d2edcug0.hpfvmrgz.aovydwv3.p8cu3f6v.kb5gq1qc.taijpn5t.b0upgy8r path, .l9j0dhe7.swg4t2nn path, .a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4 path {
 		fill: #cecece;
 	}
 
-	._6zkf {
-		color: #cecece;
+	path[d="M0 36h36V0H0z"] {
+		fill: none !important;
 	}
 
-	._1ht3 ._1ht7._6zkh {
-		color: #999;
+	/* Icons */
+	path[d="M18 30c-6.627 0-12-5.372-12-12 0-6.627 5.373-12 12-12 6.628 0 12 5.373 12 12 0 6.628-5.372 12-12 12zm5.294-16.707l-7.296 7.295-3.254-3.252c-.352-.353-.919-.439-1.323-.148a1 1 0 00-.128 1.522l3.998 3.997a1 1 0 001.414 0l8.002-8.001a1 1 0 10-1.413-1.413z"] {
+		fill: #999;
 	}
 
-	._8102._4-0i, ._8102 g, ._6zv9 g #Fill-1 {
-		fill: rgba(255, 255, 255, 0.34);
-	}
-
-	.sp_sbxFxdCZjuj {
-		-webkit-filter: invert(1);
-		filter: invert(1);
-	}
-
-	._53il ._558b+._53io, ._53ik ._558b+._53io {
-		-webkit-filter: invert(.882);
-		filter: invert(.882);
-	}
-
-	._1ht6 {
-		color: #cecece;
-	}
-
-	._1ht7 {
-		color: #9e9e9e;
-	}
-
-	._1ht3 ._1htf {
-		color: #cecece;
-	}
-
-	._5iwm._6-_b ._58al {
-		background-color: rgba(255, 255, 255, .04);
-	}
-
-	::placeholder {
-		color: #7e7e7e !important;
-		opacity: 1 !important;
-	}
-
-	._225b._6ybl {
-		color: rgba(255, 255, 255, .34);
-	}
-
-	._364g {
-		color: #cecece;
-	}
-
-	._225b {
-		color: #9e9e9e;
-	}
-
-	._4g0h {
-		color: #cecece;
-	}
-
-	._225b {
-		background-color: #2e2e2e;
-	}
-
-	._1ht1._1ht2 ._6zkc {
-		background-color: rgba(255, 255, 255, .05);
-	}
-
-	._1u5d {
-		background-color: #1e1e1e;
-	}
-
-	._57pl {
-		border-right-color: #1e1e1e;
-	}
-
-	._57pm {
-		border-bottom-color: #1e1e1e;
-	}
-
-	._7q1j div[style="border: 2px solid white; height: 33px; width: 33px;"] {
-		border-color: transparent !important;
-	}
-
-	._7q0v[style="border: 2px solid rgb(242, 242, 242); height: 33px; width: 33px;"], ._7q1i[style="border: 2px solid rgb(242, 242, 242); height: 33px; width: 33px;"] {
-		border-color: #292929 !important;
-	}
-
-	._30yy._6-xf._6-xg svg {
+	.sp_o5t_XtHjhxN_1_5x {
 		filter: invert(.8);
 	}
 
-	._3bll._6ybw a, ._2ogt._6yb- {
-		color: #cecece;
+	/* App download */
+	.oajrlxb2.q2y6ezfg.gcieejh5.bn081pho.humdl8nn.izx4hr6d.rq0escxv.nhd2j8a9.j83agx80.p7hjln8o.kvgmc6g5.cxmmr5t8.oygrvhab.hcukyx3x.jb3vyjys.d1544ag0.qt6c0cv9.tw6a2znq.i1ao9s8h.esuyzwwr.f1sip0of.lzcic4wl.l9j0dhe7.abiwlrkh.p8dawk7l.beltcj47.p86d2i9g.aot14ch1.kzx2olss.cbu4d94t.taijpn5t.ni8dbmo4.stjgntxs.k4urcfbm.tv7at329 {
+		background: #1e1e1e;
 	}
 
-	._1ht1:hover {
-		background-color: rgba(255, 255, 255, .05);
+	.sn0e7ne5 {
+		box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 2px;
 	}
 
-	#message-dots path {
-		fill: #cecece;
+	/* Middle header */
+	.bafdgad4 {
+		box-shadow: 0 0 4px rgba(0,0,0,.7)
 	}
 
-	/* Right */
-
-	._3eur._6ybk, ._3eur._6ybk a {
-		color: #cecece;
-	}
-
-	._1lj0._6ybm {
-		color: rgba(255, 255, 255, .34);
-	}
-
-	#magnifying-glass path, #pencil-underline path, #bell path, #message-cross path, #minus-circle path, #caution-triangle path {
-		fill: #cecece;
-	}
-
-	._7ht_, ._7lgy {
-		color: rgba(255, 255, 255, .4);
-	}
-
-	._3eus {
-		color: #9e9e9e;
-	}
-
-	._4_j5 {
-		border-left-color: #3e3e3e;
-	}
-
-	._1li- {
-		border-color: #3e3e3e;
-	}
-
-	._4_j5 {
-		background-color: #1e1e1e;
-	}
-
-	._1lj0 {
-		color: #aeaeae;
-	}
-
-	._3szq {
-		color: #cecece;
-	}
-
-	._3x6v {
-		color: #9e9e9e;
-	}
-
-	._3m31:nth-of-type(3n+1) {
-		border-right-color: #1e1e1e;
-	}
-
-	._3m31:nth-of-type(3n+2) {
-		border-left-color: #1e1e1e;
-		border-right-color: #1e1e1e;
-	}
-
-	._3m31:nth-of-type(3n+3) {
-		border-left-color: #1e1e1e;
-	}
-
-	._2jnv {
-		color: #cecece;
-	}
-
-	._4rph ._4rpj {
-		color: #cecece;
-	}
-
-	._80co {
-		background-color: rgba(30, 30, 30, .5)
-	}
-
-	._80cm {
-		background-color: #1e1e1e;
-	}
-
-	._80cm svg {
+	/* Pop-up close icon */
+	.sp_GOPGoqMu6Pq_1_5x {
 		filter: invert(.8);
 	}
 
-	._7jxv {
-		background-color: #1e1e1e;
-	}
-
-	._7q1q {
-		color: #cecece;
-	}
-
-	._7q1l, ._7q1m, ._7q1n, ._7q0v, ._7q1i {
-		border-color: #1e1e1e !important;
-	}
-
-	._7q1p {
-		background-color: rgba(255, 255, 255, .05);
-	}
-
-	._87b_ {
-		color: rgba(255, 255, 255, .4);
-	}
-
-	._4dfu {
-		background-image: linear-gradient(to right, #1e1e1e, rgba(255, 255, 255, .05), #1e1e1e);
-	}
-
-	/* Middle */
-
-	._1t2u {
-		border-color: #4e4e4e;
-	}
-
-	._497p {
-		color: #9e9e9e;
-	}
-
-	._5irm._7mkm {
-		background-color: #1e1e1e;
-	}
-
-	._7kpk {
-		background-color: rgba(255, 255, 255, .05);
-	}
-
-	._kmc._7kpg ._1p1t {
-		color: rgba(206, 206, 206, .50);
-		-webkit-text-fill-color: rgba(206, 206, 206, .50);
-	}
-
-	._hh7 {
-		background-color: #363636;
-		color: #cecece;
-	}
-
-	._hh7 a {
-		color: #cecece;
-	}
-
-	._hh7:active, ._-5k ._hh7 {
-		background-color: #404040;
-	}
-
-	._2y8z {
-		color: #9e9e9e;
-	}
-
-	._14-7 ._58ah ._58al {
-		color: #cecece;
-	}
-
-	._2y8_ {
-		background-color: #1e1e1e;
-	}
-
-	._ih3 {
-		color: #aeaeae;
-	}
-
-	._7mki {
-		background: transparent;
-	}
-
-	._2wy4 {
-		color: #9e9e9e;
-	}
-
-	._2zl5 {
-		background-color: #1e1e1e;
-	}
-
-	._2-x5 {
-		background-color: #1e1e1e;
-	}
-
-	._2zl5 {
-		border-color: #3e3e3e;
-	}
-
-	._1hbw ._5pd7 {
-		background-color: #cecece;
-	}
-
-	._4gd0 {
-		background-color: #1e1e1e;
-	}
-
-	._13iv div {
-		background-color: #1e1e1e !important;
-	}
-
-	._13iv ._1k1p:hover div {
-		background-color: #2e2e2e !important;
-	}
-
-	._hh7._6ybn._2f5r {
-		background-color: transparent !important;
-	}
-
-	._2poz._ui9._576q svg > rect[fill="white"] {
-		fill: #1e1e1e;
-	}
-
-	._7301._hh7, ._7301._hh7._hh7._6ybn {
-		background-color: #1e1e1e;
-		color: #999;
-		border-color: rgba(255, 255, 255, .1);
-	}
-
-	._uwc ._uwa {
-		filter: invert(1);
-	}
-
-	._4k7a {
-		color: rgba(255, 255, 255, .5);
-	}
-
-	._3egs {
-		background: #1e1e1e;
-	}
-
-	.fbNubFlyoutHeader, .fbNubFlyoutBody, .fbNubFlyoutFooter, .fbNubFlyoutAttachments, ._4_j4 .chatAttachmentShelf {
-		background: #1e1e1e;
-		border-color: #5e5e5e;
-	}
-
-	._7t1o {
-		background-color: #232323;
-	}
-
-	._74ku {
-		color: rgba(255, 255, 255, .5);
-	}
-
-	._llj {
-		border-color: rgba(255, 255, 255, .05);
-	}
-
-	._4rv3 {
-		border-color: rgba(255, 255, 255, .1);
-	}
-
-	._jf4 ._jf3 {
-		background-color: rgba(255, 255, 255, .05);
-		color: rgba(255, 255, 255, .4);
-	}
-
-	._2kt ._3xsd {
-		color: #cecece;
-	}
-
-	._879k {
-		color:rgba(255, 255, 255, .5);
-	}
-
-	._uwe ._uwa {
-		filter: invert(1);
+	/* Feedback icons */
+	.sp_BQbKIpOzOAx_1_5x, .sp_a51jIvPl6dA_1_5x {
+		filter: invert(.8);
 	}
 
 	/*[[ccb]]*/
-
-	/* > Chat bot options */
-
-	._3cn0, div ._38a0 {
-		color: rgba(255, 255, 255, 1);
-	}
-
-	._3cnl, ._3cnn a, ._3cnj {
-		color: rgba(255, 255, 255, .4);
-	}
-
-	._3cnp, ._389r {
-		border-color: rgba(255, 255, 255, .1);
-	}
-
-	._10sf {
-		background: #1e1e1e;
-		border-color: #3e3e3e;
-	}
-
-	._3u69 {
-		background-color: #1e1e1e;
-	}
-
-	/* > Reply */
-
-	._67tu {
-		border-color: #3e3e3e;
-	}
-
-	/* > Message options */
-
-	._7-_v {
-		background-color: rgba(255, 255, 255, .04);
-	}
-
-	._7-_v path {
-		fill: white;
-	}
-
-	._2rvp._7i2l g, ._3-wv._7i2n path, ._5zvq._7i2o path {
-		fill: rgba(255, 255, 255, 0.34);
-	}
-
-	/* > Links */
-
-	._5i_d, ._18p0 {
-		border-color: #3e3e3e;
-	}
-
-	._5i_d .__6k {
-		color: #cecece;
-	}
-
-	._5i_d .__6l {
-		color: #cecece;
-	}
-
-	._5i_d .__6m {
-		color: #aeaeae;
-	}
-
-	._hh7>span>a:hover {
-		background-color: transparent;
-	}
-
-	._2f5n {
-		background-color: #1e1e1e;
-		border-color: #3e3e3e;
-	}
-
-	.__6k, .__6l {
-		color: #cecece;
-	}
-
-	.__6j._43kk {
-		border-color: #1e1e1e;
-	}
-
-	/* > Search */
-
-	._5iwm ._58al {
-		background-color: rgba(255, 255, 255, .04);
-	}
-
-	._8slc {
-		color: #cecece;
-	}
-
-	._33p7 {
-		background-color: rgba(30,30,30,.95);
-		border-bottom-color: #3e3e3e;
-	}
-
-	._llq {
-		color: #cecece;
-	}
-
-	._1n-e {
-		color: #9e9e9e;
-	}
-
-	/* > Reactions */
-
-	._aou {
-		background-color: #1e1e1e;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-	}
-
-	._4kf5 {
-		background-color: #1e1e1e;
-	}
-
-	._koh {
-		border-color: #3e3e3e;
-	}
-
-	._3s-4 {
-		background: #1e1e1e;
-	}
-
-	/* > Code snippet */
-
-	._wu0 {
-		background-color: #4c4420;
-		border-color: #a38b2a;
-		color: #fff;
-	}
-
-	/* > "Replying to" message */
-
-	._67tw {
-		color: rgba(255, 255, 255, 0.5);
-	}
-
-	/* Edit nicknames */
-
-	._2c9i ._19jt {
-		color: #cecece;
-	}
-
-	._3q34 {
-		color: #cecece;
-	}
-
-	._3q35 {
-		color: #9e9e9e;
-	}
-
-	._30e7 ._5j5f {
-		border-color: #2e2e2e;
-	}
-
-	/* Mute Conversation */
-
-	._4eby {
-		background-color: #1e1e1e;
-	}
-
-	._51l0 .uiInputLabel .__rm+.uiInputLabelLabel {
-		color: #cecece;
-	}
-
-	._2c9g ._4ebz {
-		color: #cecece;
-	}
-
-	/* Add more people */
-
-	._4jgp ._4jgu {
-		background-color: #1e1e1e;
-	}
-
-	._2c9i ._4ebz, ._4jgt {
-		border-bottom-color: #3e3e3e;
-	}
-
-	._5rh4, ._5qsj {
-		color: #aeaeae;
-	}
-
-	._5l38 {
-		border-top-color: #2e2e2e;
-	}
-
-	/* Report conversation */
-
-	._1py_._1rb6 {
-		background: #1e1e1e !important;
-	}
-
-	._3lxv {
-		background: #1e1e1e !important;
-		border-bottom-color: #3e3e3e !important;
-	}
-
-	._3lxw {
-		color: #cecece;
-	}
-
-	._59ry, ._4iyh._2pia._2pi4 {
-		border-color: #3e3e3e !important;
-	}
-
-	._6s-6 {
-		background-color: #262626;
-		border-color: #3e3e3e;
-	}
-
-	._6s-6 span {
-		color: #fff !important;
-	}
-
-	._6s-6:not(._7nq7) {
-		outline-color: transparent;
-	}
-
-	/* Delete message */
-
-	._7492 {
-		color:rgba(255, 255, 255, .5);
-	}
-
-	/* Option Menus */
-
-	._558b ._54ng {
-		background-color: #1e1e1e;
-		border-color: #464646;
-	}
-
-	._2i-c ._54nf ._54nh {
-		color: #cecece;
-	}
-
-	._2i-c ._54ne ._54nh, ._2i-c ._54ne ._54nc, ._2i-c ._54ne {
-		color: #fff;
-	}
-
-	/* Settings */
-
-	._374c {
-		color: #9e9e9e;
-	}
-
-	._374b {
-		border-bottom-color: #3e3e3e;
-	}
-
-	._59s7 {
-		background: none;
-	}
-
-	._4ng2, ._6ct8._6y58 {
-		color: #cecece;
-	}
-
-	._6cs7 {
-		color: rgba(206, 206, 206, 0.6);
-	}
-
-	/* Report a Problem */
-
-	._4t2a, div._4-i2, div._5a8u {
-		background-color: #1e1e1e;
-	}
-
-	._4-i0 {
-		background-color: #242526;
-		border-color: #3e3e3e;
-	}
-
-	._4-i0 ._52c9, ._uvt {
-		color: #cecece;
-	}
-
-	#bug_report_textarea, .mvs select {
-		background-color: #1e1e1e !important;
-		border-color: #4e4e4e;
-		color: #cecece;
-	}
-	._517h, ._59pe:focus, ._59pe:hover {
-		background-color: #242526;
-		border-color: #3e3e3e;
-		color: #bebebe;
-	}
-
-	._517h:hover {
-		background-color:  #2e2e2e;
-	}
-
-	._5lnf {
-		border-color: #404040;
-	}
-
-	/* Fix for Inbox */
-
-	._2poo {
-		background-position: 0 -120px;
-	}
-
-	._2pop {
-		background-position: 0 -103px;
-	}
-
-	/* Inbox Menu */
-
-	._9jo li.navSubmenu a {
-		color: #cecece;
-	}
-
-	._558b ._54nc {
-		border-color: rgba(0,0,0,0);
-	}
-
-	._558b ._54ak {
-		border-color: #2e2e2e;
-	}
-
-	/* Plans */
-
-	._3nta {
-		background-color: #1e1e1e;
-	}
-
-	._3nta:hover {
-		background-color: #2f2f2f;
-	}
-
-	._2n3u, ._58al, ._38wl, ._4dx5, ._4dx4, ._4x7m, ._4x79, ._4x7b {
-		color: #cecece;
-	}
-
-	._4sp8 {
-		background-color: #1e1e1e;
-	}
-
-	/*[[sge]]*/
 	}
