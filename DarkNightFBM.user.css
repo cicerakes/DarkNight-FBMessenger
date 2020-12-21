@@ -23,9 +23,11 @@
 @-moz-document domain("messenger.com")/*[[inbox]]*/ {
 	:root, .__fb-light-mode {
 		--card-background: #1e1e1e;
+		--comment-background: #292929;
 		--card-background-flat: #292929;
 		--disabled-button-background: #373737;
 		--divider: #4d4d4d;
+		--hosted-view-selected-state: #1D2731;
 		--media-inner-border: rgba(255, 255, 255, 0.1);
 		--messenger-card-background: #1e1e1e;
 		--overlay-alpha-80: rgba(41, 41, 41, 0.8);
