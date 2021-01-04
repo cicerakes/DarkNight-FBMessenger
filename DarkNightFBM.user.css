@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night Facebook Messenger
 @namespace		cicerakes
-@version		2.0.2
+@version		2.0.3
 @description	A dark/night theme for Facebook's inbox/messages and messenger.com.
 @author			cicerakes
 @license		CC-BY-SA-4.0
@@ -12,7 +12,7 @@
 @var select		ccb		"Colored Chat Bubbles" {
 	"Enabled - Darker Default Blue": ".l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.qlfml3jp.inkptoze.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf[style='background-color: rgb(0, 153, 255);'],.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.qlfml3jp.ihh4hy1g.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf[style='background-color: rgb(0, 153, 255);'],.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.kdgqqoy6.inkptoze.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf[style='background-color: rgb(0, 153, 255);'],.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.kdgqqoy6.ihh4hy1g.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf[style='background-color: rgb(0, 153, 255);'],.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.qlfml3jp.jinzq4gt.e72ty7fz.mrjvor2e.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf[style='background-color: rgb(0, 153, 255);']{background-color:#006cd1!important}",
 	"Enabled": "",
-	"Disabled": ".l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.qlfml3jp.inkptoze.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf,.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.qlfml3jp.ihh4hy1g.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf,.l60d2q6s.d1544ag0.sj5x9vvc.tw6a2znq.l9j0dhe7.ni8dbmo4.stjgntxs.kdgqqoy6.inkptoze.e72ty7fz.qmr60zad.jm1wdb64.qv66sw1b.ljqsnud1.g6srhlxm.odn2s2vf{background-color:#363636!important}"
+	"Disabled": ".ljqsnud1.odn2s2vf{background-color:var(--wash)!important}"
 }
 @var select		inbox	"Enable on Facebook Messages/Inbox" {
 	"Yes": ", url-prefix('https://www.facebook.com/messages'), url-prefix('https://web.facebook.com/messages')",
