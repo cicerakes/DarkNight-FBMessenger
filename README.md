@@ -7,11 +7,8 @@ A dark/night theme for Facebook's inbox/messages and [messenger.com](https://www
 Coloured chat bubbles can be turned on/off.
 
 ## Installation
-Install the [Stylus extension](https://add0n.com/stylus.html) to install the UserCSS below.
-
-* [Install the UserCSS here.](https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/DarkNightFBM.user.css)
-* A Userstyle version can also be found [here](https://userstyles.org/styles/134433/dark-night-facebook-messenger).  
-Note that this version is outdated and not as frequently updated.
+1. Install the [Stylus extension](https://add0n.com/stylus.html) if you haven't already.
+2. [Install the UserCSS here.](https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/DarkNightFBM.user.css)
 
 ## Preview
 ### Coloured Chat Bubbles Enabled (with Darker Default Blue)
