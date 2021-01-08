@@ -96,5 +96,10 @@
 		filter: invert(.8);
 	}
 
+	/* Reacts */
+	.tlilfck6 {
+		box-shadow: 0 2px 4px var(--shadow-2);
+	}
+
 	/*[[ccb]]*/
 	}
