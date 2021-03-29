@@ -50,6 +50,10 @@
 		--web-wash: #1e1e1e;
 	}
 
+	div[style="--secondary-button-background:#e4e6eb;"] {
+		--secondary-button-background: #353535 !important;
+	}
+
 	body {
 		color: #cecece;
 	}
