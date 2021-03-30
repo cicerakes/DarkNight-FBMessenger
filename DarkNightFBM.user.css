@@ -27,6 +27,7 @@
 		--card-background-flat: #292929;
 		--disabled-button-background: #373737;
 		--divider: #4d4d4d;
+		--filter-primary-icon: invert(.8) brightness(104%);
 		--hosted-view-selected-state: #1D2731;
 		--hover-overlay: rgba(255, 255, 255, 0.05);
 		--media-inner-border: rgba(255, 255, 255, 0.1);
