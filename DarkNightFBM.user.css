@@ -22,6 +22,7 @@
 
 @-moz-document domain("messenger.com")/*[[inbox]]*/ {
 	:root, .__fb-light-mode {
+		--always-black: #cecece;
 		--card-background: #1e1e1e;
 		--comment-background: #292929;
 		--comment-footer-background: #232323;
