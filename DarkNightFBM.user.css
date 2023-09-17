@@ -51,6 +51,8 @@
 		--surface-background: #1e1e1e;
 		--wash: #373737;
 		--web-wash: #1e1e1e;
+		/* fix chrome light theme scrollbar */
+		color-scheme: dark; 
 	}
 
 	div[style="--secondary-button-background:#e4e6eb;"] {
