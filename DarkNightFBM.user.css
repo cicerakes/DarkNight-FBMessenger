@@ -24,7 +24,10 @@
 	:root, .__fb-light-mode {
 		--always-black: #cecece;
 		--card-background: #1e1e1e;
-		--chat-incoming-message-bubble-background-color: #303030
+		--chat-text-blockquote-color-background-line: rgba(255, 255, 255, 0.19);
+		--chat-text-blockquote-color-text-primary-media: rgba(255, 255, 255, 0.7);
+		--chat-incoming-message-bubble-background-color: #303030;
+		--chat-replied-message-background-color: rgba(255, 255, 255, 0.12);
 		--comment-background: #292929;
 		--comment-footer-background: #232323;
 		--card-background-flat: #292929;
