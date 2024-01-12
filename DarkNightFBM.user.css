@@ -38,6 +38,7 @@
 		--hover-overlay: rgba(255, 255, 255, 0.05);
 		--media-inner-border: rgba(255, 255, 255, 0.1);
 		--messenger-card-background: #1e1e1e;
+		--mwp-message-row-background: #1e1e1e;
 		--messenger-reply-background: #2a2a2a;
 		--overlay-alpha-80: rgba(41, 41, 41, 0.8);
 		--popover-background: #1e1e1e;
@@ -56,7 +57,7 @@
 		--wash: #373737;
 		--web-wash: #1e1e1e;
 		/* fix chrome light theme scrollbar */
-		color-scheme: dark; 
+		color-scheme: dark;
 	}
 
 	div[style="--secondary-button-background:#e4e6eb;"] {
