@@ -36,6 +36,7 @@
 		--filter-primary-icon: invert(.8) brightness(104%);
 		--hosted-view-selected-state: #1D2731;
 		--hover-overlay: rgba(255, 255, 255, 0.05);
+		--icon-secondary-color: var(--placeholder-text);
 		--media-inner-border: rgba(255, 255, 255, 0.1);
 		--messenger-card-background: #1e1e1e;
 		--mwp-message-row-background: #1e1e1e;
