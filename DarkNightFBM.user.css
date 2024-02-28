@@ -31,6 +31,7 @@
 		--comment-background: #292929;
 		--comment-footer-background: #232323;
 		--card-background-flat: #292929;
+		--circle-button-normal-background-color: rgba(255, 255, 255, 0.04);
 		--disabled-button-background: #373737;
 		--divider: #4d4d4d;
 		--filter-primary-icon: invert(.8) brightness(104%);
