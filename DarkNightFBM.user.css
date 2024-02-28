@@ -45,6 +45,7 @@
 		--messenger-reply-background: #2a2a2a;
 		--overlay-alpha-80: rgba(41, 41, 41, 0.8);
 		--popover-background: #1e1e1e;
+		--pressable-background-color-selected: rgba(255, 255, 255, 0.06);
 		--primary-icon: #cecece;
 		--primary-text: #cecece;
 		--scroll-thumb: #5d5d5d;
