@@ -39,6 +39,7 @@
 		--hover-overlay: rgba(255, 255, 255, 0.05);
 		--icon-primary-color: rgb(206, 206, 206);
 		--icon-secondary-color: var(--placeholder-text);
+		--icon-tertiary-color: rgba(255, 255, 255, 0.2);
 		--media-inner-border: rgba(255, 255, 255, 0.1);
 		--messenger-card-background: #1e1e1e;
 		--mwp-message-row-background: #1e1e1e;
